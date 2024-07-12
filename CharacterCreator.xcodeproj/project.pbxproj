@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F52CA78F2C4012B100F1B594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52CA78E2C4012B100F1B594 /* AppDelegate.swift */; };
+		F52CA7912C4012B100F1B594 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52CA7902C4012B100F1B594 /* SceneDelegate.swift */; };
+		F52CA7932C4012B100F1B594 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52CA7922C4012B100F1B594 /* ViewController.swift */; };
+		F52CA7982C4012B300F1B594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52CA7972C4012B300F1B594 /* Assets.xcassets */; };
+		F52CA79B2C4012B300F1B594 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F52CA79A2C4012B300F1B594 /* Base */; };
+		F52CA7AD2C4021B400F1B594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52CA7AC2C4021B400F1B594 /* Assets.xcassets */; };
+		F52CA7B02C4021B400F1B594 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52CA7AF2C4021B400F1B594 /* Preview Assets.xcassets */; };
+		F52CA7B32C4021B400F1B594 /* CharacterCreatorWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F52CA7A62C4021B200F1B594 /* CharacterCreatorWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F52CA7B92C4021F300F1B594 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52CA7B82C4021F300F1B594 /* CharacterView.swift */; };
+		F52CA7BE2C40426800F1B594 /* CharacterCreatorWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52CA7BD2C40426800F1B594 /* CharacterCreatorWatchApp.swift */; };
+		F52CA7C82C4043AB00F1B594 /* ExtentionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52CA7BA2C402AEB00F1B594 /* ExtentionDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F52CA7B12C4021B400F1B594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F52CA7832C4012B100F1B594 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F52CA7A52C4021B200F1B594;
+			remoteInfo = "CharacterCreatorWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F52CA7B42C4021B400F1B594 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F52CA7B32C4021B400F1B594 /* CharacterCreatorWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F52CA78B2C4012B100F1B594 /* CharacterCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharacterCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52CA78E2C4012B100F1B594 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F52CA7902C4012B100F1B594 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F52CA7922C4012B100F1B594 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F52CA7972C4012B300F1B594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F52CA79A2C4012B300F1B594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F52CA79C2C4012B300F1B594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F52CA7A62C4021B200F1B594 /* CharacterCreatorWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CharacterCreatorWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52CA7AC2C4021B400F1B594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F52CA7AF2C4021B400F1B594 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F52CA7B82C4021F300F1B594 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		F52CA7BA2C402AEB00F1B594 /* ExtentionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionDelegate.swift; sourceTree = "<group>"; };
+		F52CA7BD2C40426800F1B594 /* CharacterCreatorWatchApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCreatorWatchApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F52CA7882C4012B100F1B594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52CA7A32C4021B200F1B594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F52CA7822C4012B100F1B594 = {
+			isa = PBXGroup;
+			children = (
+				F52CA78D2C4012B100F1B594 /* CharacterCreator */,
+				F52CA7A72C4021B200F1B594 /* CharacterCreatorWatch Watch App */,
+				F52CA78C2C4012B100F1B594 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F52CA78C2C4012B100F1B594 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F52CA78B2C4012B100F1B594 /* CharacterCreator.app */,
+				F52CA7A62C4021B200F1B594 /* CharacterCreatorWatch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F52CA78D2C4012B100F1B594 /* CharacterCreator */ = {
+			isa = PBXGroup;
+			children = (
+				F52CA78E2C4012B100F1B594 /* AppDelegate.swift */,
+				F52CA7902C4012B100F1B594 /* SceneDelegate.swift */,
+				F52CA7922C4012B100F1B594 /* ViewController.swift */,
+				F52CA7972C4012B300F1B594 /* Assets.xcassets */,
+				F52CA7992C4012B300F1B594 /* LaunchScreen.storyboard */,
+				F52CA79C2C4012B300F1B594 /* Info.plist */,
+			);
+			path = CharacterCreator;
+			sourceTree = "<group>";
+		};
+		F52CA7A72C4021B200F1B594 /* CharacterCreatorWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				F52CA7B82C4021F300F1B594 /* CharacterView.swift */,
+				F52CA7BD2C40426800F1B594 /* CharacterCreatorWatchApp.swift */,
+				F52CA7BA2C402AEB00F1B594 /* ExtentionDelegate.swift */,
+				F52CA7AC2C4021B400F1B594 /* Assets.xcassets */,
+				F52CA7AE2C4021B400F1B594 /* Preview Content */,
+			);
+			path = "CharacterCreatorWatch Watch App";
+			sourceTree = "<group>";
+		};
+		F52CA7AE2C4021B400F1B594 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F52CA7AF2C4021B400F1B594 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F52CA78A2C4012B100F1B594 /* CharacterCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52CA79F2C4012B300F1B594 /* Build configuration list for PBXNativeTarget "CharacterCreator" */;
+			buildPhases = (
+				F52CA7872C4012B100F1B594 /* Sources */,
+				F52CA7882C4012B100F1B594 /* Frameworks */,
+				F52CA7892C4012B100F1B594 /* Resources */,
+				F52CA7B42C4021B400F1B594 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F52CA7B22C4021B400F1B594 /* PBXTargetDependency */,
+			);
+			name = CharacterCreator;
+			productName = CharacterCreator;
+			productReference = F52CA78B2C4012B100F1B594 /* CharacterCreator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F52CA7A52C4021B200F1B594 /* CharacterCreatorWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52CA7B72C4021B400F1B594 /* Build configuration list for PBXNativeTarget "CharacterCreatorWatch Watch App" */;
+			buildPhases = (
+				F52CA7A22C4021B200F1B594 /* Sources */,
+				F52CA7A32C4021B200F1B594 /* Frameworks */,
+				F52CA7A42C4021B200F1B594 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CharacterCreatorWatch Watch App";
+			productName = "CharacterCreatorWatch Watch App";
+			productReference = F52CA7A62C4021B200F1B594 /* CharacterCreatorWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F52CA7832C4012B100F1B594 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F52CA78A2C4012B100F1B594 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F52CA7A52C4021B200F1B594 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F52CA7862C4012B100F1B594 /* Build configuration list for PBXProject "CharacterCreator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F52CA7822C4012B100F1B594;
+			productRefGroup = F52CA78C2C4012B100F1B594 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F52CA78A2C4012B100F1B594 /* CharacterCreator */,
+				F52CA7A52C4021B200F1B594 /* CharacterCreatorWatch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F52CA7892C4012B100F1B594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52CA7982C4012B300F1B594 /* Assets.xcassets in Resources */,
+				F52CA79B2C4012B300F1B594 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52CA7A42C4021B200F1B594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52CA7B02C4021B400F1B594 /* Preview Assets.xcassets in Resources */,
+				F52CA7AD2C4021B400F1B594 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F52CA7872C4012B100F1B594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52CA7932C4012B100F1B594 /* ViewController.swift in Sources */,
+				F52CA78F2C4012B100F1B594 /* AppDelegate.swift in Sources */,
+				F52CA7912C4012B100F1B594 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52CA7A22C4021B200F1B594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52CA7C82C4043AB00F1B594 /* ExtentionDelegate.swift in Sources */,
+				F52CA7B92C4021F300F1B594 /* CharacterView.swift in Sources */,
+				F52CA7BE2C40426800F1B594 /* CharacterCreatorWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F52CA7B22C4021B400F1B594 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F52CA7A52C4021B200F1B594 /* CharacterCreatorWatch Watch App */;
+			targetProxy = F52CA7B12C4021B400F1B594 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F52CA7992C4012B300F1B594 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52CA79A2C4012B300F1B594 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F52CA79D2C4012B300F1B594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F52CA79E2C4012B300F1B594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F52CA7A02C4012B300F1B594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YDM4QC6KDH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CharacterCreator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maksymov.CharacterCreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F52CA7A12C4012B300F1B594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YDM4QC6KDH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CharacterCreator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maksymov.CharacterCreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F52CA7B52C4021B400F1B594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CharacterCreatorWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = YDM4QC6KDH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CharacterCreatorWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.maksymov.CharacterCreator;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maksymov.CharacterCreator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		F52CA7B62C4021B400F1B594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CharacterCreatorWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = YDM4QC6KDH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CharacterCreatorWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.maksymov.CharacterCreator;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maksymov.CharacterCreator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F52CA7862C4012B100F1B594 /* Build configuration list for PBXProject "CharacterCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52CA79D2C4012B300F1B594 /* Debug */,
+				F52CA79E2C4012B300F1B594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52CA79F2C4012B300F1B594 /* Build configuration list for PBXNativeTarget "CharacterCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52CA7A02C4012B300F1B594 /* Debug */,
+				F52CA7A12C4012B300F1B594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52CA7B72C4021B400F1B594 /* Build configuration list for PBXNativeTarget "CharacterCreatorWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52CA7B52C4021B400F1B594 /* Debug */,
+				F52CA7B62C4021B400F1B594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F52CA7832C4012B100F1B594 /* Project object */;
+}
