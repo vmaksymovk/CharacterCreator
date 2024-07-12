@@ -17,9 +17,7 @@ CharacterSync to aplikacja na iOS i watchOS, zaprojektowana do zarządzania i sy
 ## Rozpoczęcie Pracy
 
 ### Wymagania
-- Xcode 12.0 lub nowszy
-- iOS 14.0 lub nowszy
-- watchOS 7.0 lub nowszy
+- iOS 16.0 lub nowszy
 
 ### Instalacja
 1. Sklonuj repozytorium:
