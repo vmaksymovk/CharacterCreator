@@ -24,4 +24,4 @@ CharacterSync to aplikacja na iOS i watchOS, zaprojektowana do zarządzania i sy
 ### Instalacja
 1. Sklonuj repozytorium:
    ```bash
-   
+   https://github.com/vmaksymovk/CharacterCreator.git
